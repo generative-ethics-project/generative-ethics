@@ -1,0 +1,37 @@
+name: Core amendment
+description: Propose an explicit change to a tenet or foundational formulation.
+title: "[Amendment] "
+body:
+  - type: input
+    id: target
+    attributes:
+      label: Tenet or claim
+    validations:
+      required: true
+  - type: textarea
+    id: wording
+    attributes:
+      label: Current wording and proposed wording
+      description: Include both exact sentences and explain added or removed commitments.
+    validations:
+      required: true
+  - type: textarea
+    id: reasoning
+    attributes:
+      label: Reasoning and support
+      description: State premises, derivation or evidence, and relevant source or contribution links.
+    validations:
+      required: true
+  - type: textarea
+    id: objection
+    attributes:
+      label: Strongest objection and unresolved disagreement
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Affected strands and book passages
+      description: Identify dependencies requiring review if the amendment is adopted.
+    validations:
+      required: true

@@ -1,0 +1,25 @@
+name: Exploration lead
+description: Share an intuition, abstraction, or connection worth exploring.
+title: "[Explore] "
+body:
+  - type: textarea
+    id: intuition
+    attributes:
+      label: Idea or intuitive direction
+      description: Describe the connection or question in your own words. A finished argument is not required.
+    validations:
+      required: true
+  - type: textarea
+    id: connections
+    attributes:
+      label: Related ideas or examples
+      description: Optional concepts, experiences, sources, or links that prompted the idea.
+    validations:
+      required: false
+  - type: textarea
+    id: significance
+    attributes:
+      label: Why it might merit exploration
+      description: What might this help us ask or understand? It is fine to be uncertain.
+    validations:
+      required: false

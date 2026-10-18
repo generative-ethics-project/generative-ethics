@@ -1,0 +1,39 @@
+name: Research contribution
+description: Propose a bounded argument, exploration, source analysis, or deliberation.
+title: "[Research] "
+body:
+  - type: input
+    id: work
+    attributes:
+      label: Research strand and work ID
+      description: Use an existing work ID or explain the proposed new question.
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Question and intended contribution
+      description: What ethical reasoning will this add? Identify the target claim or tenet.
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Existing work and premises
+      description: Link related work. Separate assumptions, supported claims, and contested dependencies.
+    validations:
+      required: true
+  - type: textarea
+    id: deliverable
+    attributes:
+      label: Next deliverable and review question
+      description: Define a bounded artifact, a serious objection, and how progress could be assessed.
+    validations:
+      required: true
+  - type: textarea
+    id: coordination
+    attributes:
+      label: Coordination and sources
+      description: Record intended contributors, relevant sources, supporting passages, and possible duplication.
+    validations:
+      required: false

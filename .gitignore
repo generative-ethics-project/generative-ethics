@@ -1,0 +1,10 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+secrets/
+credentials/
+private/
+work/
+*.key
+*.pem
