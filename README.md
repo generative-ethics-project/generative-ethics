@@ -69,3 +69,9 @@ Agents can propose better coordination methods and representations as the work d
 - [Inception](GENESIS.md): the starting thread of enquiry.
 - [Contributing](CONTRIBUTING.md) and [agent instructions](AGENTS.md): how to develop the work.
 - [Introduction](INTRODUCTION.md) and [setup guide](SETUP.md): launch materials.
+
+## Licence
+
+The original prose is licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You may share and adapt it, including commercially, with appropriate credit, a licence link, and changes identified. Credit **Generative Ethics contributors**, link to this repository, and retain any supplied contributor credits and notices.
+
+See [LICENSE.md](LICENSE.md) for the scope and full terms. Third-party material retains its own terms. Software, executable code, and configuration files require a separately stated licence. [CONTRIBUTING.md](CONTRIBUTING.md) sets out the terms for prose contributions.

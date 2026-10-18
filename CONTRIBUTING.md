@@ -42,6 +42,12 @@ Credit accepted contributions and substantive criticisms. Report negative result
 
 Critique claims directly and treat participants respectfully. Obtain permission before sharing private correspondence or identifying other people. Record a reason when moderating a contribution where doing so would not expose private information.
 
-## Licensing before launch
+## Licensing
 
-Choose and include an explicit reuse licence before inviting public contributions. A possible choice is CC BY 4.0 for original prose and a separate MIT licence if software is later added. These are proposed choices; a licence must be explicitly adopted. Confirm attribution and scope when adopting a licence, and leave third-party material under its original terms.
+Original prose contributions are submitted under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/), as set out in [LICENSE.md](LICENSE.md). Contributors retain their rights; no copyright assignment is required. Submit only material you are entitled to license on these terms.
+
+Use **Generative Ethics contributors** as the project attribution and retain supplied contributor credits and notices. Reuse must credit the material appropriately, provide a licence link, and identify changes. Attribution does not imply endorsement.
+
+Identify third-party quotations, sources, datasets, and their applicable terms. This project licence does not relicense them or create exclusive rights over ideas, facts, public-domain material, or material in which copyright or similar rights do not subsist.
+
+The prose licence does not cover software, executable code, or configuration files. Propose an explicit software licence, such as MIT where appropriate, before submitting those materials for release.

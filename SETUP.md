@@ -52,7 +52,7 @@ Set Owner to your new organisation and Repository name to `generative-ethics`. P
 
 > Community inquiry into intelligence and compassion: AI-authored ethical logic, deliberation, and open research.
 
-Choose Public. Leave automatic README, .gitignore, and licence additions off: the package supplies the first two and the licence decision is addressed below. Click Create repository. [Repository creation](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository).
+Choose Public. Leave automatic README, .gitignore, and licence additions off: the package supplies these files. Click Create repository. [Repository creation](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-new-repository).
 
 If you prefer to review the upload privately first, create it private and make it public when ready; the free public-repository branch protections below apply after that change.
 
@@ -104,26 +104,15 @@ Use Set up discussions in Features. Create a welcome discussion titled `Start he
 
 Public contributors with GitHub accounts can propose changes through their own forks and pull requests without receiving direct editing access to your repository. [Fork workflow](https://docs.github.com/en/pull-requests/how-tos/work-with-forks/fork-a-repo?tool=webui).
 
-## 8. Choose the prose reuse licence
+## 8. Licence and attribution
 
-Repository access and copyright reuse are different permissions. Recommended for original research prose: consider CC BY 4.0 if you want sharing and adaptation, including commercial reuse, with attribution and changes identified. These granted freedoms cannot be revoked while users comply. [Official CC BY 4.0 terms summary](https://creativecommons.org/licenses/by/4.0/).
+The original project prose is licensed under **Creative Commons Attribution 4.0 International (CC BY 4.0)**. The supplied [LICENSE.md](LICENSE.md) contains the scope, attribution instructions, and full legal code. Include it at the repository root.
 
-No licence has been adopted by the supplied files. If you decide on that choice, create a root `LICENSE.md` through Add file → Create new file and adopt an appropriate notice referencing the [full legal code](https://creativecommons.org/licenses/by/4.0/legalcode.en). A proposed notice to review is:
+The licence permits sharing and adaptation, including commercial reuse, with appropriate credit, a licence link, and changes identified. Its freedoms cannot be revoked for recipients who comply. [Official CC BY 4.0 terms summary](https://creativecommons.org/licenses/by/4.0/).
 
-```text
-Except where otherwise stated, original prose contributed under this
-notice is licensed under Creative Commons Attribution 4.0 International:
-https://creativecommons.org/licenses/by/4.0/legalcode.en
+Use **Generative Ethics contributors** as the project attribution, with a link to the repository, and retain supplied contributor credits and notices. Attribution must not imply endorsement. Personal inception credit remains confined to GENESIS.md.
 
-Requested project attribution: Generative Ethics contributors, with a
-link to this repository. Preserve additional attribution required for
-individual contributions and third-party material, and identify changes.
-
-Third-party material retains its own terms. This notice does not license
-software; any software added later must state its own applicable licence.
-```
-
-Update CONTRIBUTING.md to say that contributions are submitted under the adopted licence, and add the adopted licence and its link to README.md. Apply a grant only to material you have authority to license. Individual contributors can use the attribution they choose; the project's inception remains confined to GENESIS.md.
+[CONTRIBUTING.md](CONTRIBUTING.md) sets the same licence for original prose contributions without requiring copyright assignment. Third-party material retains its own terms. Software, executable code, and configuration files require a separately stated licence before release.
 
 ## 9. Give people appropriate permissions
 
@@ -176,6 +165,6 @@ Before giving an automated author write access, enable required approval by anot
 
 Confirm that README renders at the top level, the book and research links open, hidden files are present, issue forms appear, and Discussions is usable. Include the real repository URL when publishing the introduction.
 
-Check the initial commit before setting protection. Once the public content and licence are settled, open Releases → Draft a new release. Create tag `v1.0.0`, target the default branch, and use title `V1`. Add a brief description of the included research materials, then Publish release when ready or Save draft. [GitHub release instructions](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository).
+Check the initial commit before setting protection. Once you have reviewed the public content and licence notice, open Releases → Draft a new release. Create tag `v1.0.0`, target the default branch, and use title `V1`. Add a brief description of the included research materials, then Publish release when ready or Save draft. [GitHub release instructions](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository).
 
 The target result is a public community repository, a visible invitation, bounded research tasks, controlled editing access, and an inspectable path for AI and human contributions. Live agent operation is the next implementation task, separate from this upload.
